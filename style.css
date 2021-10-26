@@ -1,0 +1,366 @@
+html {
+  scroll-behavior: smooth;
+}
+:root {
+  --primary-color: #bb7e56;
+  --secondary-color: black;
+  --bg-color: white;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "rubik";
+}
+header {
+  max-width: 75%;
+  margin: auto;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.nav-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav-links li {
+  list-style: none;
+  margin-left: 20px;
+}
+.nav-links a {
+  color: var(--secondary-color);
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+.logo img {
+  width: 180px;
+}
+.homepage {
+  max-width: 75%;
+  margin: auto;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+  max-width: 100%;
+  margin: auto;
+  margin-top: 50px;
+}
+.text {
+  display: flex;
+  justify-content: left;
+  flex-direction: column;
+  margin-top: 70px;
+}
+.text h1 {
+  font-size: 2.5rem;
+  max-width: 500px;
+  font-weight: 600;
+}
+.text span {
+  font-weight: 900;
+  color: var(--primary-color);
+}
+.text p {
+  max-width: 450px;
+  font-size: 1.1rem;
+  margin-top: 10px;
+  font-weight: 500;
+}
+.image img {
+  width: 500px;
+}
+.buttons {
+  margin-top: 20px;
+}
+.buttons button {
+  width: 140px;
+  height: 35px;
+  border: none;
+  outline: none;
+  background-color: var(--primary-color);
+  font-family: 1.2rem;
+  font-weight: 600;
+  font-family: "rubik";
+  border-radius: 5px;
+  color: white;
+  margin-right: 15px;
+  cursor: pointer;
+}
+.buttons a {
+  text-decoration: none;
+  color: var(--primary-color);
+  font-weight: 600;
+  font-family: 1.2rem;
+}
+.billionpage {
+  height: 70vh;
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: var(--primary-color);
+}
+.billionpage h1 {
+  font-size: 2.5rem;
+  color: white;
+}
+.billionpage p {
+  font-weight: 500;
+  color: white;
+  font-size: 1.5rem;
+}
+.problempage {
+  max-width: 75%;
+  margin: auto;
+  margin-top: 50px;
+}
+.problempage h1 {
+  font-size: 2.3rem;
+  color: var(--primary-color);
+}
+.icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.first {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.img img {
+  width: 100px;
+}
+.info p {
+  font-weight: 600;
+  color: var(--primary-color);
+  font-size: 1.2rem;
+}
+.aboutpage {
+  max-width: 75%;
+  margin: auto;
+}
+.aboutpage h1 {
+  font-size: 2.3rem;
+  color: var(--primary-color);
+  margin-top: 50px;
+}
+.ab {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+  padding-bottom: 50px;
+}
+.pl img {
+  width: 370px;
+}
+.blah {
+  max-width: 540px;
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+.featurepage {
+  max-width: 75%;
+  margin: auto;
+}
+.bg {
+  background-color: #f1f1ea;
+}
+.featurepage h1 {
+  color: var(--primary-color);
+  font-size: 2.3rem;
+  padding-top: 50px;
+}
+.feat {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  background-color: var(--bg-color);
+  padding: 50px;
+  border-radius: 8px;
+  height: 400px;
+  margin-bottom: 50px;
+}
+.circle img {
+  width: 350px;
+}
+.bico h2 {
+  font-size: 1.4rem;
+  margin-bottom: 20px;
+  margin-top: 50px;
+  font-weight: 100;
+  color: var(--primary-color);
+}
+.bico p {
+  font-weight: 500;
+  max-width: 500px;
+  font-size: 1.5rem;
+}
+.part2 {
+  flex-direction: row-reverse;
+  /* margin-top: 100px; */
+  align-items: center;
+}
+.width img {
+  width: 450px;
+}
+.pt {
+  margin-top: 100px;
+}
+.min img {
+  width: 220px;
+}
+li {
+  font-weight: 500;
+  font-size: 1.5rem;
+  max-width: 500px;
+}
+.yt {
+  max-width: 75%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 100px;
+}
+.yt iframe {
+  width: 90%;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 8px;
+  margin-bottom: 100px;
+  height: 500px;
+}
+body::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  /* background: #fff; */
+  background: var(--bg-color);
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background: var(--primary-color);
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+/* responsive   */
+.final {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+.wink img {
+  width: 80px;
+  height: 50px;
+  margin-top: 12px;
+}
+.ok h1 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-top: 20px;
+}
+.master p {
+  font-weight: 400;
+}
+@media screen and (max-width: 960px) {
+  header {
+    display: none;
+  }
+  .homepage {
+    max-width: 90%;
+  }
+  .flex {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .text h1 {
+    font-size: 2rem;
+    justify-content: center;
+  }
+  .text p {
+    font-size: 1em;
+  }
+  .image img {
+    max-width: 80vw;
+    margin: auto;
+    margin-top: 50px;
+  }
+  .problempage {
+    max-width: 90%;
+  }
+  .problempage h1 {
+    font-size: 2em;
+  }
+  .billionpage h1 {
+    font-size: 2rem;
+  }
+  .icons {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .aboutpage {
+    max-width: 90%;
+  }
+  .aboutpage h1 {
+    font-size: 2em;
+  }
+  .ab {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .blah p {
+    font-size: 1em;
+    font-weight: 500;
+  }
+  .pl img {
+    max-width: 80vw;
+    margin: auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
+  }
+  .featurepage {
+    max-width: 90%;
+  }
+  .featurepage h1 {
+    font-size: 2em;
+  }
+  .feat {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .circle img {
+    width: 80vw;
+    margin: auto;
+    margin-top: 50px;
+  }
+  .min img {
+    max-width: 30vw;
+  }
+  .yt {
+    max-width: 100%;
+  }
+  .yt iframe {
+    max-width: 80vw;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 50px;
+  }
+}
