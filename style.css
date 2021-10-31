@@ -377,11 +377,13 @@ body::-webkit-scrollbar {
   .billionpage h1 {
     font-size: 2rem;
   }
-  .icons {
+  .hmm {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+  }
+  .billionpage {
+    margin-top: 200px;
   }
   .aboutpage {
     max-width: 90%;
@@ -389,19 +391,14 @@ body::-webkit-scrollbar {
   .aboutpage h1 {
     font-size: 2em;
   }
-  .ab {
+  .flox {
     justify-content: center;
     align-items: center;
     flex-direction: column;
   }
-  .blah p {
-    font-size: 1em;
-    font-weight: 500;
-  }
-  .pl img {
-    max-width: 80vw;
+  .box {
+    width: 80vw;
     margin: auto;
-    margin-bottom: 50px;
     margin-top: 50px;
   }
   .featurepage {
@@ -410,18 +407,28 @@ body::-webkit-scrollbar {
   .featurepage h1 {
     font-size: 2em;
   }
-  .feat {
+  .feature {
+    height: 85vh;
+  }
+  .min {
     justify-content: center;
     align-items: center;
     flex-direction: column;
   }
-  .circle img {
-    width: 80vw;
-    margin: auto;
-    margin-top: 50px;
+  .heading h2 {
+    font-size: 1.1em;
   }
-  .min img {
-    max-width: 30vw;
+  .mage img {
+    width: 50vw;
+    margin-top: 40px;
+  }
+  .mages img {
+    width: 55vw;
+    margin-top: 40px;
+  }
+  .mag img {
+    width: 35vw;
+    margin-top: 20px;
   }
   .yt {
     max-width: 100%;
