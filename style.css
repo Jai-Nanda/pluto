@@ -12,7 +12,7 @@ html {
   box-sizing: border-box;
 }
 body {
-  font-family: "rubik";
+  font-family: "poppins";
 }
 header {
   max-width: 75%;
@@ -44,19 +44,72 @@ nav {
 .homepage {
   max-width: 75%;
   margin: auto;
+  height: 80vh;
 }
 .flex {
   display: flex;
   justify-content: space-between;
   max-width: 100%;
   margin: auto;
-  margin-top: 50px;
+  margin-top: 80px;
 }
 .text {
   display: flex;
   justify-content: left;
   flex-direction: column;
   margin-top: 70px;
+}
+.feature {
+  background-color: white;
+  border-radius: 8px;
+  height: 450px;
+}
+.min {
+  max-width: 80%;
+  margin: auto;
+  padding-top: 90px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.reverse {
+  flex-direction: row-reverse;
+}
+.heading h2 {
+  max-width: 550px;
+  font-weight: 600;
+  font-size: 1.3rem;
+}
+.mag img {
+  width: 200px;
+}
+.flox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.content {
+  max-width: 80%;
+  margin: auto;
+}
+.box {
+  width: 320px;
+  height: 350px;
+  border: 2px solid grey;
+  border-radius: 8px;
+}
+.content h3 {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+.mage img {
+  width: 300px;
+}
+.heading p {
+  color: var(--primary-color);
 }
 .text h1 {
   font-size: 2.5rem;
@@ -66,6 +119,10 @@ nav {
 .text span {
   font-weight: 900;
   color: var(--primary-color);
+}
+.mages img {
+  width: 350px;
+  margin-right: 40px;
 }
 .text p {
   max-width: 450px;
@@ -87,7 +144,7 @@ nav {
   background-color: var(--primary-color);
   font-family: 1.2rem;
   font-weight: 600;
-  font-family: "rubik";
+  font-family: "poppins";
   border-radius: 5px;
   color: white;
   margin-right: 15px;
@@ -131,20 +188,6 @@ nav {
   justify-content: space-between;
   align-items: center;
 }
-.first {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 50px;
-}
-.img img {
-  width: 100px;
-}
-.info p {
-  font-weight: 600;
-  color: var(--primary-color);
-  font-size: 1.2rem;
-}
 .aboutpage {
   max-width: 75%;
   margin: auto;
@@ -153,6 +196,24 @@ nav {
   font-size: 2.3rem;
   color: var(--primary-color);
   margin-top: 50px;
+}
+.hmm {
+  display: flex;
+  justify-content: space-around;
+}
+.k {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.name {
+  color: var(--primary-color);
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.bruh img {
+  width: 100px;
 }
 .ab {
   display: flex;
@@ -217,12 +278,8 @@ nav {
 .pt {
   margin-top: 100px;
 }
-.min img {
-  width: 220px;
-}
 li {
   font-weight: 500;
-  font-size: 1.5rem;
   max-width: 500px;
 }
 .yt {
@@ -255,6 +312,18 @@ body::-webkit-scrollbar {
   -webkit-transition: 0.3s ease-in-out;
   transition: 0.3s ease-in-out;
 }
+
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.icons i {
+  margin-top: 50px;
+  color: var(--primary-color);
+}
+/* FOOTER */
 
 /* responsive   */
 .final {
